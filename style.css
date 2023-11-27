@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+body {
+  background-color: #2d545e;
+  text-align: center;
+  padding: 100px;
+}
+main {
+  background-color: #c89666;
+  border-radius: 8px;
+  max-width: 400px;
+  min-width: 250px;
+  padding: 20px;
+  margin: 0 auto;
+}
+h1 {
+  color: white;
+  font-size: 45px;
+}
+p {
+  font-size: 25px;
+}
+.message {
+  margin-bottom: 15px;
+}
+input[type="number"] {
+  width: 80px;
+  height: 20px;
+  padding: 10px;
+  margin: 14px;
+  text-align: center;
+  border: none;
+  border-radius: 10px;
+  font-size: xx-large;
+}
+.check {
+  background-color: transparent;
+  border: 2px solid #1a1a1a;
+  border-radius: 15px;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: block;
+  font-size: 20px;
+  min-width: 0;
+  padding: 10px 40px;
+  text-align: center;
+  margin: 0 auto;
+  text-align: center;
+}
+.check:hover {
+  color: #fff;
+  background-color: #1a1a1a;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+.check:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+.right {
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px;
+}
+.again {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: x-large;
+  margin: 20px;
+  color: #beef00;
+  font-weight: bold;
+}
+.number {
+  display: none;
+}
