@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p class="role">
+      💡IF YOU SCORE 20 YOU WIN <br />
+      💡IF YOU ROLL NUMBER 1 YOU LOSE ALL YOUR POINT <br />
+      💡USE HOLD BUTTON TO SWITCH THE PLAYER AND SAVE YOU SCORE <br />
+    </p>
+    <main>
+      <div class="player_0 player_active">
+        <h2 class="text">Player 1</h2>
+        <p class="score" id="score_0">20</p>
+        <div class="score_countiner">
+          <p class="current_score">current score</p>
+          <p class="final_score" id="current_0">0</p>
+        </div>
+      </div>
+      <div class="player_1">
+        <h2 class="text">Player 2</h2>
+        <p class="score" id="score_1">10</p>
+        <div class="score_countiner">
+          <p class="current_score">current score</p>
+          <p class="final_score" id="current_1">0</p>
+        </div>
+      </div>
+      <img class="dice" src="dice_2.png" alt="" />
+      <button class="btn new_game">New Game</button>
+      <button class="btn roll">Roell Dice</button>
+      <button class="btn hold">Hold</button>
+    </main>
+    <script src="javascript.js"></script>
+  </body>
+</html>
